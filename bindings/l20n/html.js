@@ -21,7 +21,9 @@ define(function (require) {
       'mark', 'ruby', 'rt', 'rp', 'bdi', 'bdo', 'span', 'br', 'wbr'
     ],
     attributes: {
-      global: [ 'title', 'aria-label' ],
+      // WARNING: patched l20n.js
+      global: [ 'title', 'aria-label',
+        'data-original-title', 'data-placeholder' ],
       a: [ 'download' ],
       area: [ 'download', 'alt' ],
       // value is special-cased in isAttrAllowed
