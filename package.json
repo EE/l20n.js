@@ -22,7 +22,8 @@
   ],
   "bugs": "https://bugzilla.mozilla.org/page.cgi?id=productdashboard.html&tab=summary&product=L20n&bug_status=open",
   "scripts": {
-    "test": "grunt merge-conflict lint test"
+    "test": "grunt merge-conflict lint test",
+    "prepublish": "grunt"
   },
   "directories": {
     "lib": "./lib"
