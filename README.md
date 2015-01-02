@@ -1,3 +1,10 @@
+NOTE
+====
+
+This package is a fork of https://www.npmjs.com/package/l20n with a few fixes/changes
+needed by the team at Laboratorium EE. In most cases you should just use the upstream
+package.
+
 L20n: Localization 2.0 [![Build Status][travisimage]][travislink]
 =================================================================
 
